@@ -1,0 +1,65 @@
+{
+  "name": "endlist",
+  "version": "0.1.0",
+  "description": "A collaborative playlist application",
+  "author": {
+    "name": "Jenn"
+  },
+  "main": "public/electron.js",
+  "private": true,
+  "build": {
+    "appId": "com.electron.endlist",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "caniuse-api": "^3.0.0",
+    "phoenix": "^1.4.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-md": "^1.8.0",
+    "react-redux": "^5.1.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.5",
+    "react-youtube": "^7.8.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "concurrently \"BROWSER=none npm start\" \"wait-on http://localhost:3000 && npm run electron-dev\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron-dev": "ELECTRON_START_URL=http://localhost:3000 electron .",
+    "electron": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thakugan/endlist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thakugan/endlist/issues"
+  },
+  "homepage": "./",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "electron": "^3.0.6",
+    "electron-builder": "^20.28.4",
+    "wait-on": "^3.1.0"
+  },
+  "browserslist": [
+    ">0.2%"
+  ]
+}

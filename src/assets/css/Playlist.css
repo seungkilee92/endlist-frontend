@@ -1,0 +1,43 @@
+.playlist {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.playlist-sections {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.playlist-videos {
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.video-search {
+    position: relative;
+}
+
+.video-list {
+    overflow: scroll;
+    flex-shrink: 2;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.video-list p {
+    margin: 0;
+}
+
+.playlist-users input {
+    margin-right: 0.5rem;
+}
+
+.user-list {
+    margin-top: 1rem;
+    overflow: scroll;
+}

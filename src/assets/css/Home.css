@@ -1,0 +1,22 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.owned-playlists {
+    display: flex;
+    flex-direction: row;
+}
+
+.owned-playlists>h2 {
+    margin: 0;
+}
+
+.owned-playlists>button {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    padding: 0 0 0 1rem;
+}

@@ -1,0 +1,12 @@
+.search-bar-input {
+    width: 100%;
+}
+
+.search-results {
+    max-height: 30vh;
+    width: 100%;
+    overflow: scroll;
+    position: absolute;
+    color: black;
+    background-color: white;
+}

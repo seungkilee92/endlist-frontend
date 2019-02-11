@@ -1,0 +1,15 @@
+.search-result img {
+    display: inline;
+    max-width: 4rem;
+}
+
+.search-result p {
+    display: inline;
+    margin: 0 0.5rem 0 0.5rem;
+    max-width: 70%;
+    overflow-wrap: normal;
+}
+
+.search-result button {
+    display: inline;
+}

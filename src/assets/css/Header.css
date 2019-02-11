@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+a {
+    flex-grow: 1;
+    color: white;
+    text-decoration: none;
+}

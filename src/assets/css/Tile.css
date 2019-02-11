@@ -1,0 +1,31 @@
+.playlist-tile-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.5rem;
+    overflow: scroll;
+}
+
+.playlist-tile {
+    flex-grow: 1;
+    max-width: 8rem;
+    margin: 1rem 0.25rem;
+    height: 8rem;
+    background-color: white;
+    color: black;
+    border-radius: 0.5rem;
+}
+
+.playlist-tile>img {
+    max-width: 8rem;
+    overflow: hidden;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.playlist-tile>p{
+    margin: 0 0.5rem;
+}
